@@ -73,14 +73,6 @@ public class Book {
         this.authors = authors;
     }
 
-    public Publisher getPublisher() {
-        return publisher;
-    }
-
-    public void setPublisher(Publisher publisher) {
-        this.publisher = publisher;
-    }
-
     @Override
     public String toString() {
         return "Book{" +
